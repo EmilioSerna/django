@@ -188,3 +188,10 @@ def resolve_url(to, *args, **kwargs):
 
     # Finally, fall back and assume it's a URL
     return to
+
+
+def make_toast():
+    """Return a string that says 'toast'.
+    This is a simple example of a function that is tested in the Django test suite.
+    """
+    return "toast"
